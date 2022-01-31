@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(65,0,0,1) 79%); ;
+    font-family: 'Bebas Neue', cursive;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+header{
+    padding: 30px 0;
+}
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    font-weight: normal;
+    color:  #EA0404;
+    font-size: 40px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+header nav a:hover{
+    color:  #EA0404
+}
+
+/* imagen principal */
+
+.imagenPrincipal{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background: linear-gradient(rgba(0,0,0, .50) 0%, rgba(0,0,0, .50) 100%),  url(../img/publico.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+
+}
+.imagenPrincipal .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.imagenPrincipal .titulo{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+.imagenPrincipal .frase{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* seccion de productos */
+.contenedor .seccion{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+}
+
+/* discos */
+.productos{
+    margin: 3em;
+    padding: 0.3em;
+    margin-top: 1em;
+}
+.nombreDeProductos{
+    color: white;
+}
+
+/* seccion nosotros */
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas:
+    "main main main main"
+    "barraLateral contenido1 contenido2 contenido2"
+    "barraLateral contenido1 contenido2 contenido2"
+    "barraLateral footer footer footer";
+    grid-gap: 0.2rem;
+    text-align: center;
+    
+}
+.main{
+    background: #EA0404;
+    grid-area: main;
+    color: white;
+    font-size: 40px;
+
+}
+.barraLateral{
+    background: #EA0404;
+    grid-area: barraLateral;
+    opacity: 50%;
+    font-size: 30px;
+    
+}
+.contenido1{
+    background: #EA0404;
+    grid-area: contenido1;
+    opacity: 50%;
+    font-size: 30px;
+}
+.contenido2{
+    background: #EA0404;
+    grid-area:contenido2;
+    opacity: 50%;
+    font-size: 30px;
+}
+
+footer{
+    background: darkgrey;
+    grid-area: footer;
+    font-size: 30px;
+    
+}
+.parrafo{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+/* medias queries */
+@media screen and ( max-width: 800px) {
+    header .logo{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    header .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+    .imagenPrincipal{
+        font-size: 14px;
+    }
+    .imagenPrincipal .frase{
+        max-width: 100%;
+    }
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1fr;
+        grid-template-areas: 
+        "main"
+        "barraLateral"
+        "contenido1"
+        "contenido2"
+        "footer";
+    }
+    
+}
