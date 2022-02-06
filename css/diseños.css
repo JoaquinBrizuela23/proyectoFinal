@@ -41,7 +41,7 @@ header nav a:hover{
     font-size: 16px;
     min-height: 40.62em;
     color: white;
-    background: linear-gradient(rgba(0,0,0, .50) 0%, rgba(0,0,0, .50) 100%),  url(../img/publico.jpg);
+    background: linear-gradient(rgba(0,0,0, .50) 0%, rgba(0,0,0, .50) 100%),  url(../img/portadas.png);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
@@ -75,24 +75,65 @@ header nav a:hover{
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
 }
+.contenedor .ver{
+    display: flex;
+    justify-content: end;
+}
+.contenedor .ver a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
 
 /* discos */
-.productos{
-    margin: 3em;
-    padding: 0.3em;
-    margin-top: 1em;
-    display: flex;
-    justify-content:space-evenly;
+.card{
+    background: linear-gradient(rgba(0,0,0, .50) 0%, rgba(0,0,0, .50) 100%);
+    margin-bottom: 1em; 
 }
-.nombreDeProductos{
+
+.card-body{
     color: white;
-    display: grid;
-    font-size: 0.8em;
+}
+.btn{
+    background: #EA0404;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-title-1{
+    font-size: 24px;
+
+}
+.card-title-2{
+    font-size: 23px;
+}
+.card-text{
     font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+.card-text-1{
+    font-size: 12.2px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-fluid{
+    margin:1.2em;
+}
+/* FOOTER */
+footer{
+    grid-area: footer;
+    background: darkgrey;
+    grid-area: footer;
+    font-size: 30px;
 }
 
 /* seccion nosotros */
-.container{
+.containerNosotros{
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -170,6 +211,12 @@ footer{
         "contenido1"
         "contenido2"
         "footer";
+    }
+    .contenedor .ver{
+        display: none;
+    }
+    .container-fluid{
+        margin: 7em ;
     }
     
 }
