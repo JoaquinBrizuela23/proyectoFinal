@@ -101,6 +101,14 @@ header nav a:hover{
     display: flex;
     justify-content: center;
     font-size: 18px;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: black;
+    color: #EA0404;
+    border: 1px solid #EA0404;
+    transform: translateY(-3px);
 }
 .card-title{
     font-size: 25px;
