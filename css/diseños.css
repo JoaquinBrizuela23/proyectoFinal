@@ -8,6 +8,7 @@ body{
     background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(65,0,0,1) 79%); ;
     font-family: 'Bebas Neue', cursive;
 }
+
 .contenedor{
     width: 90%;
     margin: auto;
@@ -67,7 +68,7 @@ header nav a:hover{
     font-size: 3.12em;
     margin-bottom: 0.4em;
     font-family: 'Open Sans', sans-serif;
-    text-shadow: 10px 6px rgb(22, 22, 22);
+    text-shadow: 4px 4px black;
 }
 .imagenPrincipal .frase{
     font-weight: normal;
@@ -143,10 +144,7 @@ header nav a:hover{
 }
 /* FOOTER */
 footer{
-    grid-area: footer;
-    background: darkgrey;
-    grid-area: footer;
-    font-size: 30px;
+    background: gray;
 }
 
 /* seccion nosotros */
@@ -165,7 +163,7 @@ footer{
     
 }
 .main{
-    background: #EA0404;
+    background: #b10404;
     grid-area: main;
     color: white;
     font-size: 40px;
@@ -191,17 +189,68 @@ footer{
     font-size: 30px;
 }
 
-footer{
-    background: darkgrey;
-    grid-area: footer;
-    font-size: 30px;
-    
-}
 .parrafo{
     font-size: 40PXpx;
     margin-top: 50px;
     color: white;
 }
+/* seccion comprar */
+#comprar {
+    padding: 40px 0;
+    margin: 10px;
+  }
+  
+  .comprar-gradients {
+    float: left;
+    width: 60%;
+    border-radius: 25px;
+    height: 160px;
+    margin-bottom: 20px;
+  }
+  
+  .comprar-gradients-1 {
+    background: linear-gradient(90deg, rgba(20,20,20,1) 4%, rgba(87,66,69,1) 75%);
+    color: rgb(211, 199, 199);
+    font-size: 5em;
+    text-align:center;
+    text-shadow: 4px 4px #EA0404;
+    margin-bottom:;
+  }
+  
+  .comprar-gradients-2 {
+    background: linear-gradient(to left, rgba(20,20,20,1) 4%, rgba(87,66,69,1) 75%);
+    color: rgb(211, 199, 199);
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 4px 4px #EA0404;
+  }
+  
+  .comprar-gradients-3 {
+    background: linear-gradient(90deg, rgba(20,20,20,1) 4%, rgba(87,66,69,1) 75%);
+    color: rgb(211, 199, 199);
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 4px 4px #EA0404;
+  }
+  
+  .comprar-description {
+    float: right;
+    width: 40%; 
+    text-align: left;
+    padding: 15px 0 30px 30px;
+    color: white;
+  }
+  
+  .comprar-description h4 {
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 1.3em;
+  }
+  
+  .comprar-description p {
+    font-weight: 300;
+  }
 
 
 /* medias queries */
@@ -238,6 +287,20 @@ footer{
     }
     .parrafo{
         font-size: 18px;
+    }
+    .comprar-gradients{
+        display: none;
+    }
+    .comprar-description{
+    float: left;
+    width:100%; 
+    text-align: left;
+    padding: 15px 0 30px 30px;
+    color: white;
+    font-size: 25px;
+    }
+    .comprar-description h4{
+        text-shadow: 3px 3px #b10404;
     }
     
 }
