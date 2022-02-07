@@ -25,6 +25,14 @@ header .logo{
     color:  #EA0404;
     font-size: 40px;
 }
+.logotipo{
+    background: white;
+    border-radius: 50%;
+    transition: 1.2s;
+}
+.logotipo:hover{
+    transform:rotate(360deg)
+}
 header nav a{
     color: white;
     text-decoration: none;
@@ -59,6 +67,7 @@ header nav a:hover{
     font-size: 3.12em;
     margin-bottom: 0.4em;
     font-family: 'Open Sans', sans-serif;
+    text-shadow: 10px 6px rgb(22, 22, 22);
 }
 .imagenPrincipal .frase{
     font-weight: normal;
@@ -165,20 +174,20 @@ footer{
 .barraLateral{
     background: #EA0404;
     grid-area: barraLateral;
-    opacity: 50%;
+    opacity: 70%;
     font-size: 30px;
     
 }
 .contenido1{
     background: #EA0404;
     grid-area: contenido1;
-    opacity: 50%;
+    opacity: 70%;
     font-size: 30px;
 }
 .contenido2{
     background: #EA0404;
     grid-area:contenido2;
-    opacity: 50%;
+    opacity: 70%;
     font-size: 30px;
 }
 
@@ -189,8 +198,9 @@ footer{
     
 }
 .parrafo{
-    font-size: 20px;
+    font-size: 40PXpx;
     margin-top: 50px;
+    color: white;
 }
 
 
@@ -225,6 +235,9 @@ footer{
     }
     .container-fluid{
         margin: 7em ;
+    }
+    .parrafo{
+        font-size: 18px;
     }
     
 }
