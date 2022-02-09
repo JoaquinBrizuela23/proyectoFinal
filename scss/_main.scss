@@ -1,0 +1,51 @@
+/* MAIN */
+main{
+    .imagenPrincipal{
+        font-size: 16px;
+        min-height: 40.62em;
+        color: white;
+        background: linear-gradient(rgba(0,0,0, .50) 0%, rgba(0,0,0, .50) 100%),  url(../img/portadas.png);
+        background-position: center center;
+        background-size: cover;
+        margin-bottom: 3.12em;
+        display: flex;
+        align-items: end;
+        .contenedor{
+            margin: 0 auto;
+            margin-bottom: 6.25em;
+            .titulo{
+                font-weight: 600;
+                font-size: 3.12em;
+                margin-bottom: 0.4em;
+                font-family: 'Open Sans', sans-serif;
+                text-shadow: 4px 4px black;
+            }
+            .frase{
+                font-weight: normal;
+                font-size: 1em;
+                line-height: 1.75em;
+                max-width: 50%;
+                margin-bottom: 1.25em;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    
+    }
+}
+.contenedor{
+    .seccion{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 3em;
+    }
+    .ver{
+        display: flex;
+        justify-content: end;
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17px;
+        }
+    }
+}
