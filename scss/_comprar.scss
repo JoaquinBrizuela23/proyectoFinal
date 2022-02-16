@@ -15,7 +15,7 @@ main{
                         color: rgb(211, 199, 199);
                         font-size: 5em;
                         text-align:center;
-                        text-shadow: 4px 4px #EA0404;
+                        text-shadow: 4px 4px $colorUno;
                       }
                 }
                   .comprar-description {
@@ -23,11 +23,11 @@ main{
                     width: 40%; 
                     text-align: left;
                     padding: 15px 0 30px 30px;
-                    color: white;
+                    color: $colorDos;
                     h4{
                         font-weight: 400;
                         padding-bottom: 10px;
-                        color: white;
+                        color: $colorDos;
                         font-size: 1.3em;
                         p {
                             font-weight: 300;
@@ -49,7 +49,7 @@ main{
                         color: rgb(211, 199, 199);
                         font-size: 5em;
                         text-align: center;
-                        text-shadow: 4px 4px #EA0404;
+                        text-shadow: 4px 4px $colorUno;
                       }
                   }
             }

@@ -14,20 +14,20 @@
     .main{
         background: #b10404;
         grid-area: main;
-        color: white;
+        color: $colorDos;
         font-size: 40px;
         .barraLateral{
-            background: #EA0404;
+            background: $colorUno;
             grid-area: barraLateral;
             opacity: 70%;
             font-size: 30px;
             .parrafo{
                 font-size: 40PXpx;
                 margin-top: 50px;
-                color: white;
+                color: $colorDos;
             }
         .contenido1{
-                background: #EA0404;
+                background: $colorUno;
                 grid-area: contenido1;
                 opacity: 70%;
                 font-size: 30px;

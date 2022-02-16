@@ -9,7 +9,7 @@ header{
         align-items: center;
         .logo{
             font-weight: normal;
-            color:  #EA0404;
+            color:  $colorUno;
             font-size: 40px;
         }
         .logotipo{
@@ -22,12 +22,12 @@ header{
         }
         nav{
         a{
-            color: white;
+            color: $colorDos;
             text-decoration: none;
             margin-right: 20px;
             font-family: 'Open Sans', sans-serif;
             &:hover{
-            color:  #EA0404
+            color:  $colorUno;
              }
             }
         }

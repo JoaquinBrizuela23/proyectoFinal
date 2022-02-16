@@ -3,7 +3,7 @@ main{
     .imagenPrincipal{
         font-size: 16px;
         min-height: 40.62em;
-        color: white;
+        color: $colorDos;
         background: linear-gradient(rgba(0,0,0, .50) 0%, rgba(0,0,0, .50) 100%),  url(../img/portadas.png);
         background-position: center center;
         background-size: cover;
@@ -34,7 +34,7 @@ main{
 }
 .contenedor{
     .seccion{
-        color: white;
+        color: $colorDos;
         font-family: 'Open Sans', sans-serif;
         font-size: 3em;
     }
@@ -43,7 +43,7 @@ main{
         justify-content: end;
         a{
             text-decoration: none;
-            color: white;
+            color: $colorDos;
             font-family: 'Open Sans', sans-serif;
             font-size: 17px;
         }
