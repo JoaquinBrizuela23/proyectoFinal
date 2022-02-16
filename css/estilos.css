@@ -141,3 +141,56 @@ main .imagenPrincipal {
         grid-area: contenido1;
         opacity: 70%;
         font-size: 30px; }
+
+main #comprar {
+  padding: 40px 0;
+  margin: 10px; }
+  main #comprar div div .comprar-gradients {
+    float: left;
+    width: 60%;
+    border-radius: 25px;
+    height: 160px;
+    margin-bottom: 20px; }
+    main #comprar div div .comprar-gradients.comprar-gradients-1 {
+      background: linear-gradient(90deg, #141414 4%, #574245 75%);
+      color: #d3c7c7;
+      font-size: 5em;
+      text-align: center;
+      text-shadow: 4px 4px #EA0404; }
+  main #comprar div div .comprar-description {
+    float: right;
+    width: 40%;
+    text-align: left;
+    padding: 15px 0 30px 30px;
+    color: white; }
+    main #comprar div div .comprar-description h4 {
+      font-weight: 400;
+      padding-bottom: 10px;
+      color: white;
+      font-size: 1.3em; }
+      main #comprar div div .comprar-description h4 p {
+        font-weight: 300; }
+  main #comprar div div .comprar-gradients {
+    float: left;
+    width: 60%;
+    border-radius: 25px;
+    height: 160px;
+    margin-bottom: 20px; }
+    main #comprar div div .comprar-gradients.comprar-gradients-2 {
+      background: linear-gradient(to left, #141414 4%, #574245 75%);
+      color: #d3c7c7;
+      font-size: 5em;
+      text-align: center;
+      text-shadow: 4px 4px #EA0404; }
+  main #comprar div div .comprar-gradients {
+    float: left;
+    width: 60%;
+    border-radius: 25px;
+    height: 160px;
+    margin-bottom: 20px; }
+    main #comprar div div .comprar-gradients.comprar-gradients-3 {
+      background: linear-gradient(90deg, #141414 4%, #574245 75%);
+      color: #d3c7c7;
+      font-size: 5em;
+      text-align: center;
+      text-shadow: 4px 4px #EA0404; }
