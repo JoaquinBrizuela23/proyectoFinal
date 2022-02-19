@@ -35,10 +35,6 @@ header {
       header .contenedor nav a:hover {
         color: #DA1212; }
 
-/* FOOTER */
-footer {
-  background: gray; }
-
 /* MAIN */
 main .imagenPrincipal {
   font-size: 16px;
@@ -124,7 +120,7 @@ body .containerNos {
   body .containerNos .carta {
     position: relative;
     height: 250px;
-    background: #fff;
+    background: #F0F0F0;
     display: flex;
     width: 80%;
     margin: 30px 0;
@@ -223,3 +219,113 @@ main #comprar {
       font-size: 5em;
       text-align: center;
       text-shadow: 4px 4px #EA0404; }
+
+/* CONTACTOS */
+.contacto {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(/img/concierto2.png);
+  background-size: cover; }
+  .contacto .contactContent {
+    max-width: 800px;
+    text-align: center; }
+    .contacto .contactContent h2 {
+      font-size: 36px;
+      font-weight: 500;
+      color: #F0F0F0; }
+    .contacto .contactContent p {
+      font-weight: 300;
+      color: #F0F0F0; }
+  .contacto .containerContact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; }
+    .contacto .containerContact .contactInfo {
+      width: 50%;
+      display: flex;
+      flex-direction: column; }
+      .contacto .containerContact .contactInfo .box {
+        position: relative;
+        padding: 20px 0;
+        display: flex; }
+        .contacto .containerContact .contactInfo .box .icono {
+          min-width: 60px;
+          height: 60px;
+          background-color: #DA1212;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          font-size: 22px; }
+      .contacto .containerContact .contactInfo .text {
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: black;
+        flex-direction: column;
+        font-weight: 300; }
+        .contacto .containerContact .contactInfo .text h3 {
+          font-weight: 500;
+          color: #DA1212;
+          text-shadow: 3px 3px 3px #F0F0F0; }
+    .contacto .containerContact .contactForm {
+      width: 60%;
+      padding: 40px;
+      background: #F0F0F0; }
+      .contacto .containerContact .contactForm h2 {
+        font-size: 30px;
+        color: #333;
+        font-weight: 500; }
+      .contacto .containerContact .contactForm .inputBox {
+        position: relative;
+        width: 100%;
+        margin-top: 10px; }
+        .contacto .containerContact .contactForm .inputBox input {
+          width: 100%;
+          padding: 5px 0;
+          font-size: 16px;
+          margin: 10px 0;
+          border: none;
+          border-bottom: 2px solid #DA1212; }
+          .contacto .containerContact .contactForm .inputBox input[type="submit"] {
+            width: 100px;
+            background: black;
+            color: #DA1212;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+            transition: 0.2s; }
+            .contacto .containerContact .contactForm .inputBox input[type="submit"]:hover {
+              background: #DA1212;
+              color: black;
+              transform: scale(1.2); }
+        .contacto .containerContact .contactForm .inputBox textarea {
+          width: 100%;
+          padding: 5px 0;
+          font-size: 16px;
+          margin: 10px 0;
+          border: none;
+          border-bottom: 2px solid #DA1212;
+          resize: none; }
+
+/* FOOTER */
+footer {
+  background: #52616B;
+  height: auto;
+  width: 100;
+  padding-top: 40px;
+  color: #F0F0F0; }
+  footer .footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }

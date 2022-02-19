@@ -1,0 +1,16 @@
+/* FOOTER */
+footer{
+     background: #52616B;
+     height: auto;
+     width: 100;
+     padding-top: 40px;
+     color: $colorDos;
+     .footerContent{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         text-align: center;
+     }
+
+}
