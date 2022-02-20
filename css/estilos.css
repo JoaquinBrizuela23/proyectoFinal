@@ -167,53 +167,53 @@ body .containerNos {
       justify-content: end;
       align-items: center; }
 
-main #comprar {
+#comprar {
   padding: 40px 0;
   margin: 10px; }
-  main #comprar div div .comprar-gradients {
+  #comprar div div .comprar-gradients {
     float: left;
     width: 60%;
     border-radius: 25px;
     height: 160px;
     margin-bottom: 20px; }
-    main #comprar div div .comprar-gradients.comprar-gradients-1 {
+    #comprar div div .comprar-gradients.comprar-gradients-1 {
       background: linear-gradient(90deg, #141414 4%, #574245 75%);
       color: #d3c7c7;
       font-size: 5em;
       text-align: center;
       text-shadow: 4px 4px #DA1212; }
-  main #comprar div div .comprar-description {
+  #comprar div div .comprar-description {
     float: right;
     width: 40%;
     text-align: left;
     padding: 15px 0 30px 30px;
     color: #F0F0F0; }
-    main #comprar div div .comprar-description h4 {
+    #comprar div div .comprar-description h4 {
       font-weight: 400;
       padding-bottom: 10px;
       color: #F0F0F0;
       font-size: 1.3em; }
-      main #comprar div div .comprar-description h4 p {
+      #comprar div div .comprar-description h4 p {
         font-weight: 300; }
-  main #comprar div div .comprar-gradients {
+  #comprar div div .comprar-gradients {
     float: left;
     width: 60%;
     border-radius: 25px;
     height: 160px;
     margin-bottom: 20px; }
-    main #comprar div div .comprar-gradients.comprar-gradients-2 {
+    #comprar div div .comprar-gradients.comprar-gradients-2 {
       background: linear-gradient(to left, #141414 4%, #574245 75%);
       color: #d3c7c7;
       font-size: 5em;
       text-align: center;
       text-shadow: 4px 4px #DA1212; }
-  main #comprar div div .comprar-gradients {
+  #comprar div div .comprar-gradients {
     float: left;
     width: 60%;
     border-radius: 25px;
     height: 160px;
     margin-bottom: 20px; }
-    main #comprar div div .comprar-gradients.comprar-gradients-3 {
+    #comprar div div .comprar-gradients.comprar-gradients-3 {
       background: linear-gradient(90deg, #141414 4%, #574245 75%);
       color: #d3c7c7;
       font-size: 5em;
@@ -329,3 +329,41 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center; }
+    footer .footerContent h3 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      line-height: 3rem; }
+    footer .footerContent p {
+      max-width: 500px;
+      margin: 10px auto;
+      line-height: 28px;
+      font-size: 14px; }
+    footer .footerContent .redes {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 3rem 0; }
+      footer .footerContent .redes li {
+        margin: 0 10px;
+        background: #DA1212;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        transition: 1s; }
+        footer .footerContent .redes li a {
+          text-decoration: none; }
+          footer .footerContent .redes li a:hover {
+            background: #F0F0F0;
+            border-radius: 30px;
+            transform: scale(1.1); }
+  footer .footerBottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center; }
+    footer .footerBottom p {
+      font-size: 14px;
+      word-spacing: 2px;
+      text-transform: capitalize; }

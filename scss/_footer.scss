@@ -11,6 +11,54 @@ footer{
          justify-content: center;
          flex-direction: column;
          text-align: center;
+         h3{
+             font-size: 1.8rem;
+             font-weight: 400;
+             text-transform: capitalize;
+             line-height: 3rem;
+         }
+         p{
+             max-width: 500px;
+             margin: 10px auto;
+             line-height: 28px;
+             font-size: 14px
+         }
+         .redes{
+             list-style: none;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin: 1rem 0 3rem 0;
+             li{
+                 margin: 0 10px;
+                 background: $colorUno;
+                 border-radius: 30px;
+                 display: flex;
+                 align-items: center;
+                 transition: 1s ;
+                 a{
+                    text-decoration: none;
+                    &:hover{
+                        background: $colorDos;
+                        border-radius: 30px;
+                        transform: scale(1.1);
+                    }
+                   
+                }
+             }
+             
+         }
+     }
+     .footerBottom{
+         background: #000;
+         width: 100vw;
+         padding: 20px 0;
+         text-align: center;
+         p{
+             font-size: 14px;
+             word-spacing: 2px;
+             text-transform: capitalize;
+         }
      }
 
 }
