@@ -5,6 +5,8 @@ footer{
      width: 100;
      padding-top: 40px;
      color: $colorDos;
+     font-family: 'Open Sans', sans-serif;
+     bottom: 0;
      .footerContent{
          display: flex;
          align-items: center;
@@ -40,7 +42,7 @@ footer{
                     text-decoration: none;
                     &:hover{
                         background: $colorDos;
-                        border-radius: 30px;
+                        border-radius: 40px;
                         transform: scale(1.1);
                     }
                    

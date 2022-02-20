@@ -7,10 +7,34 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @include media-up(xl){
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        @include media-up(sm){
+            flex-direction: column;
+            text-align: center;
+ 
+        }
         .logo{
             font-weight: normal;
             color:  $colorUno;
             font-size: 40px;
+            @include media-up(xl){
+            font-weight: normal;
+            color:  $colorUno;
+            font-size: 40px;
+            margin: 20px;
+
+            }
+            @include media-up(sm){
+            margin-bottom: 10px;
+            font-size: 30px;
+            }
         }
         .logotipo{
             background: white;

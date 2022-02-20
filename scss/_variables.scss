@@ -1,3 +1,17 @@
 $colorUno: #DA1212;
 $colorDos: #F0F0F0;
 $colorTres:#632626;
+
+// MAPAS
+$breakpoints: (
+    sm: 540px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1200px,
+);
+@mixin media-up($breakpoint) {
+   
+    @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+}
+}
