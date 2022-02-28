@@ -21,6 +21,9 @@
             font-weight: 300;
             color: $colorDos;
             font-family: 'Open Sans', sans-serif;
+            @include media-up(xsm){
+                font-size: 15px;
+            }
         }
     
     }
@@ -47,6 +50,9 @@
                    align-items: center;
                    border-radius: 50%;
                    font-size: 22px;
+                   @include media-up(xsm){
+                       margin-left: -50px;
+                   }
                }
            }
            .text{
@@ -56,6 +62,9 @@
                color: black;
                flex-direction: column;
                font-weight: 300;
+               @include media-up(xsm){
+                   margin-left: 20px;
+               }
                h3{
                    font-weight: 500;
                    color: $colorUno;
@@ -74,6 +83,10 @@
             @include media-up(sm){
                 width: 400px;
                 margin-left: -114px;
+            }
+            @include media-up(xsm){
+                width: 290px;
+                margin-left: -90px;
             }
             h2{
                 font-size: 30px;

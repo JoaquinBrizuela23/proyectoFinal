@@ -24,7 +24,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center; } }
-    @media screen and (max-width: 540px) {
+    @media screen and (max-width: 480px) {
       header .contenedor {
         flex-direction: column;
         text-align: center; } }
@@ -38,7 +38,7 @@ header {
           color: #DA1212;
           font-size: 40px;
           margin: 20px; } }
-      @media screen and (max-width: 540px) {
+      @media screen and (max-width: 480px) {
         header .contenedor .logo {
           margin-bottom: 10px;
           font-size: 30px; } }
@@ -84,12 +84,18 @@ main .imagenPrincipal {
       max-width: 50%;
       margin-bottom: 1.25em;
       font-family: 'Open Sans', sans-serif; }
+    @media screen and (max-width: 375px) {
+      main .imagenPrincipal .contenedor {
+        margin: 50px; } }
 
 .contenedor .seccion {
   color: #F0F0F0;
   font-family: 'Open Sans', sans-serif;
   font-size: 3em;
   margin: 30px; }
+  @media screen and (max-width: 375px) {
+    .contenedor .seccion {
+      font-size: 30px; } }
 
 .contenedor .ver {
   display: flex;
@@ -136,10 +142,13 @@ main .imagenPrincipal {
   @media screen and (max-width: 768px) {
     .card {
       margin: 50px; } }
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 480px) {
     .card {
-      margin: 140px;
+      margin: 100px;
       margin-top: 20px; } }
+  @media screen and (max-width: 375px) {
+    .card {
+      margin: 50px; } }
 
 /* NOSOTROS */
 body .containerNos {
@@ -177,7 +186,7 @@ body .containerNos {
       @media screen and (max-width: 768px) {
         body .containerNos .carta .imgBx {
           display: none; } }
-      @media screen and (max-width: 540px) {
+      @media screen and (max-width: 480px) {
         body .containerNos .carta .imgBx {
           display: none; } }
       body .containerNos .carta .imgBx:before {
@@ -214,7 +223,7 @@ body .containerNos {
           font-size: 30px;
           color: #DA1212;
           text-shadow: 3px 3px 3px white; } }
-      @media screen and (max-width: 540px) {
+      @media screen and (max-width: 480px) {
         body .containerNos .carta .content h3 {
           font-size: 20px;
           color: #DA1212;
@@ -222,7 +231,7 @@ body .containerNos {
       @media screen and (max-width: 768px) {
         body .containerNos .carta .content p {
           font-size: 30px; } }
-      @media screen and (max-width: 540px) {
+      @media screen and (max-width: 480px) {
         body .containerNos .carta .content p {
           font-size: 20px; } }
 
@@ -258,7 +267,7 @@ body .containerNos {
         font-size: 5em;
         text-align: center;
         text-shadow: 4px 4px #EA0404; }
-      @media screen and (max-width: 540px) {
+      @media screen and (max-width: 480px) {
         #comprar .containerComprar div .comprar-gradients {
           display: none; } }
     #comprar .containerComprar div .comprar-description {
@@ -271,7 +280,7 @@ body .containerNos {
       @media screen and (max-width: 768px) {
         #comprar .containerComprar div .comprar-description {
           font-size: 12.3px; } }
-      @media screen and (max-width: 540px) {
+      @media screen and (max-width: 480px) {
         #comprar .containerComprar div .comprar-description {
           float: left;
           width: 60%;
@@ -285,7 +294,7 @@ body .containerNos {
         padding-bottom: 10px;
         color: #F0F0F0;
         font-size: 1.3em; }
-        @media screen and (max-width: 540px) {
+        @media screen and (max-width: 480px) {
           #comprar .containerComprar div .comprar-description h4 {
             color: #DA1212;
             text-shadow: 3px 3px 3px black; } }
@@ -317,6 +326,9 @@ body .containerNos {
       font-weight: 300;
       color: #F0F0F0;
       font-family: 'Open Sans', sans-serif; }
+      @media screen and (max-width: 375px) {
+        .contacto .contactContent p {
+          font-size: 15px; } }
   .contacto .containerContact {
     width: 100%;
     display: flex;
@@ -340,6 +352,9 @@ body .containerNos {
           align-items: center;
           border-radius: 50%;
           font-size: 22px; }
+          @media screen and (max-width: 375px) {
+            .contacto .containerContact .contactInfo .box .icono {
+              margin-left: -50px; } }
       .contacto .containerContact .contactInfo .text {
         display: flex;
         margin-left: 20px;
@@ -347,6 +362,9 @@ body .containerNos {
         color: black;
         flex-direction: column;
         font-weight: 300; }
+        @media screen and (max-width: 375px) {
+          .contacto .containerContact .contactInfo .text {
+            margin-left: 20px; } }
         .contacto .containerContact .contactInfo .text h3 {
           font-weight: 500;
           color: #DA1212;
@@ -359,10 +377,14 @@ body .containerNos {
         .contacto .containerContact .contactForm {
           width: 400px;
           margin-left: -55px; } }
-      @media screen and (max-width: 540px) {
+      @media screen and (max-width: 480px) {
         .contacto .containerContact .contactForm {
           width: 400px;
           margin-left: -114px; } }
+      @media screen and (max-width: 375px) {
+        .contacto .containerContact .contactForm {
+          width: 290px;
+          margin-left: -90px; } }
       .contacto .containerContact .contactForm h2 {
         font-size: 30px;
         color: #333;
