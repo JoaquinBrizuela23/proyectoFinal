@@ -93,7 +93,7 @@ body{
                                 margin: -50px;
 
                             }
-                            @include media-up(xsm){
+                            @include media-breakpoint-down(xsm){
                                 font-size: 20px;
                                 color: $colorUno;
                                 text-shadow: 3px 3px 3px white;
