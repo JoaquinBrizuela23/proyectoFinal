@@ -3,10 +3,29 @@
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(/img/evento1.jpg);
     background-size: cover;
+    @include media-up(xsm){
+        background-size: cover;
+        background-position: -450px;
+    }
+    @include media-up(sm){
+        background-size: cover;
+        background-position: -350px;
+    }
+    @include media-up(md){
+        background-size: cover;
+        background-position: -180px;
+    }
+    @include media-up (lg){
+        background-size: cover;
+        background-position: -100px;
+    }
+    @include media-up (xl){
+        background-position: -50px;
+    }
     .contenidoEvento{
         width: 100%;
         position: absolute;
-        top: 50%;
+        top: 70%;
         transform: translateY(-50%);
         text-align: center;
         color: $colorUno;

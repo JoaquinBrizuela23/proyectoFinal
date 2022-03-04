@@ -20,6 +20,12 @@ header{
             text-align: center;
  
         }
+        @include media-up(xsm){
+            flex-direction: column;
+            text-align: center;
+            margin: 5px;
+ 
+        }
         .logo{
             font-weight: normal;
             color:  $colorUno;

@@ -28,6 +28,11 @@ header {
       header .contenedor {
         flex-direction: column;
         text-align: center; } }
+    @media screen and (max-width: 320px) {
+      header .contenedor {
+        flex-direction: column;
+        text-align: center;
+        margin: 5px; } }
     header .contenedor .logo {
       font-weight: normal;
       color: #DA1212;
@@ -84,23 +89,23 @@ main .imagenPrincipal {
       max-width: 50%;
       margin-bottom: 1.25em;
       font-family: 'Open Sans', sans-serif; }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 320px) {
       main .imagenPrincipal .contenedor {
         margin: 50px; } }
 
 .contenedor .seccion {
   color: #F0F0F0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 30px; }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 320px) {
     .contenedor .seccion {
       font-size: 30px; } }
 
 .contenedor .ver {
   display: flex;
   justify-content: end;
-  margin-right: 20px; }
+  margin-right: 70px; }
   .contenedor .ver a {
     text-decoration: none;
     color: #F0F0F0;
@@ -119,7 +124,13 @@ main .imagenPrincipal {
     .card .card-body .card-title-1 {
       font-size: 24px; }
     .card .card-body .card-title-2 {
+      font-size: 20px; }
+    .card .card-body .card-title-3 {
+      font-size: 21px; }
+    .card .card-body .card-title-4 {
       font-size: 23px; }
+    .card .card-body .card-title-5 {
+      font-size: 20.9px; }
     .card .card-body .card-text {
       font-family: 'Open Sans', sans-serif;
       font-size: 15px; }
@@ -146,9 +157,15 @@ main .imagenPrincipal {
     .card {
       margin: 100px;
       margin-top: 20px; } }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 320px) {
     .card {
-      margin: 50px; } }
+      margin: 41px; } }
+  @media screen and (max-width: 1024px) {
+    .card {
+      margin: 120px; } }
+  @media screen and (max-width: 1200px) {
+    .card {
+      margin: 60px; } }
 
 /* NOSOTROS */
 body .containerNos {
@@ -207,6 +224,16 @@ body .containerNos {
         top: calc(50%-75px);
         transform: 1.2s ease-in-out;
         background: #DA1212; }
+        @media screen and (max-width: 1024px) {
+          body .containerNos .carta .imgBx:hover {
+            width: 200px;
+            left: -50px;
+            font-size: 4px; } }
+        @media screen and (max-width: 1200px) {
+          body .containerNos .carta .imgBx:hover {
+            width: 200px;
+            left: -50px;
+            font-size: 5px; } }
     body .containerNos .carta .content {
       position: absolute;
       right: 0;
@@ -227,13 +254,43 @@ body .containerNos {
         body .containerNos .carta .content h3 {
           font-size: 20px;
           color: #DA1212;
-          text-shadow: 3px 3px 3px white; } }
+          text-shadow: 3px 3px 3px white;
+          margin: -50px; } }
+      @media screen and (max-width: 320px) {
+        body .containerNos .carta .content h3 {
+          font-size: 20px;
+          color: #DA1212;
+          text-shadow: 3px 3px 3px white;
+          margin: -60px; } }
+      @media screen and (max-width: 1024px) {
+        body .containerNos .carta .content h3 {
+          font-size: 20px;
+          text-align: center; } }
+      @media screen and (max-width: 1200px) {
+        body .containerNos .carta .content h3 {
+          text-align: center; } }
       @media screen and (max-width: 768px) {
         body .containerNos .carta .content p {
           font-size: 30px; } }
       @media screen and (max-width: 480px) {
         body .containerNos .carta .content p {
-          font-size: 20px; } }
+          font-size: 20px;
+          margin-top: 60px;
+          margin-bottom: -10px; } }
+      @media screen and (max-width: 320px) {
+        body .containerNos .carta .content p {
+          margin-top: 60px;
+          font-size: 14.8px; } }
+      @media screen and (max-width: 1024px) {
+        body .containerNos .carta .content p {
+          font-size: 16px;
+          text-align: center;
+          margin-left: 60px; } }
+      @media screen and (max-width: 1200px) {
+        body .containerNos .carta .content p {
+          font-size: 18px;
+          text-align: center;
+          margin-left: 60px; } }
 
 #comprar {
   position: relative;
@@ -243,6 +300,12 @@ body .containerNos {
   #comprar .containerComprar {
     margin-top: 100px;
     padding-bottom: 2.5rem; }
+    @media screen and (max-width: 320px) {
+      #comprar .containerComprar {
+        margin-top: 1px; } }
+    @media screen and (max-width: 480px) {
+      #comprar .containerComprar {
+        margin-top: 1px; } }
     #comprar .containerComprar div .comprar-gradients {
       float: left;
       width: 60%;
@@ -287,8 +350,13 @@ body .containerNos {
           border-radius: 25px;
           height: 160px;
           margin-bottom: 20px;
-          font-size: 12px;
-          top: 90px; } }
+          font-size: 14px;
+          top: 90px;
+          margin-bottom: 50px; } }
+      @media screen and (max-width: 320px) {
+        #comprar .containerComprar div .comprar-description {
+          font-size: 13px;
+          margin-bottom: 80px; } }
       #comprar .containerComprar div .comprar-description h4 {
         font-weight: 400;
         padding-bottom: 10px;
@@ -303,6 +371,9 @@ body .containerNos {
       #comprar .containerComprar div .comprar-description img {
         background: white;
         border-radius: 25px; }
+        @media screen and (max-width: 320px) {
+          #comprar .containerComprar div .comprar-description img {
+            width: 20px; } }
 
 /* CONTACTOS */
 .contacto {
@@ -326,7 +397,7 @@ body .containerNos {
       font-weight: 300;
       color: #F0F0F0;
       font-family: 'Open Sans', sans-serif; }
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 320px) {
         .contacto .contactContent p {
           font-size: 15px; } }
   .contacto .containerContact {
@@ -352,7 +423,7 @@ body .containerNos {
           align-items: center;
           border-radius: 50%;
           font-size: 22px; }
-          @media screen and (max-width: 375px) {
+          @media screen and (max-width: 320px) {
             .contacto .containerContact .contactInfo .box .icono {
               margin-left: -50px; } }
       .contacto .containerContact .contactInfo .text {
@@ -362,7 +433,7 @@ body .containerNos {
         color: black;
         flex-direction: column;
         font-weight: 300; }
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 320px) {
           .contacto .containerContact .contactInfo .text {
             margin-left: 20px; } }
         .contacto .containerContact .contactInfo .text h3 {
@@ -370,7 +441,7 @@ body .containerNos {
           color: #DA1212;
           text-shadow: 3px 3px 3px #F0F0F0; }
     .contacto .containerContact .contactForm {
-      width: 60%;
+      width: 80%;
       padding: 40px;
       background: #F0F0F0; }
       @media screen and (max-width: 768px) {
@@ -380,11 +451,18 @@ body .containerNos {
       @media screen and (max-width: 480px) {
         .contacto .containerContact .contactForm {
           width: 400px;
-          margin-left: -114px; } }
-      @media screen and (max-width: 375px) {
+          margin-left: -128px; } }
+      @media screen and (max-width: 320px) {
         .contacto .containerContact .contactForm {
           width: 290px;
-          margin-left: -90px; } }
+          margin-left: -115px; } }
+      @media screen and (max-width: 1024px) {
+        .contacto .containerContact .contactForm {
+          width: 500px;
+          margin-left: -40px; } }
+      @media screen and (max-width: 1200px) {
+        .contacto .containerContact .contactForm {
+          width: 500px; } }
       .contacto .containerContact .contactForm h2 {
         font-size: 30px;
         color: #333;
@@ -481,10 +559,29 @@ footer {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/evento1.jpg);
   background-size: cover; }
+  @media screen and (max-width: 320px) {
+    .bannerEvento {
+      background-size: cover;
+      background-position: -450px; } }
+  @media screen and (max-width: 480px) {
+    .bannerEvento {
+      background-size: cover;
+      background-position: -350px; } }
+  @media screen and (max-width: 768px) {
+    .bannerEvento {
+      background-size: cover;
+      background-position: -180px; } }
+  @media screen and (max-width: 1024px) {
+    .bannerEvento {
+      background-size: cover;
+      background-position: -100px; } }
+  @media screen and (max-width: 1200px) {
+    .bannerEvento {
+      background-position: -50px; } }
   .bannerEvento .contenidoEvento {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
     text-align: center;
     color: #DA1212; }

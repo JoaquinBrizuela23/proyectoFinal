@@ -73,7 +73,7 @@
            }
         }
         .contactForm{
-            width: 60%;
+            width: 80%;
             padding: 40px;
             background: $colorDos;
             @include media-up(md){
@@ -82,11 +82,18 @@
             }
             @include media-up(sm){
                 width: 400px;
-                margin-left: -114px;
+                margin-left: -128px;
             }
             @include media-up(xsm){
                 width: 290px;
-                margin-left: -90px;
+                margin-left: -115px;
+            }
+            @include media-up (lg){
+                width: 500px;
+                margin-left: -40px;
+            }
+            @include media-up (xl){
+                width: 500px;
             }
             h2{
                 font-size: 30px;

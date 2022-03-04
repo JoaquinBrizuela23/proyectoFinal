@@ -13,7 +13,16 @@
                     
                     }
                     .card-title-2{
+                        font-size: 20px;
+                    }
+                    .card-title-3{
+                        font-size: 21px;
+                    }
+                    .card-title-4{
                         font-size: 23px;
+                    }
+                    .card-title-5{
+                        font-size: 20.9px;
                     }
                     .card-text{
                         font-family: 'Open Sans', sans-serif;
@@ -49,6 +58,12 @@
 
                 }
                 @include media-up(xsm){
-                    margin: 50px;
+                    margin: 41px;
+                }
+                @include media-up(lg){
+                    margin: 120px;
+                }
+                @include media-up (xl){
+                    margin: 60px;
                 }
             }
