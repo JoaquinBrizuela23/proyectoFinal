@@ -89,7 +89,7 @@ main .imagenPrincipal {
       max-width: 50%;
       margin-bottom: 1.25em;
       font-family: 'Open Sans', sans-serif; }
-    @media screen and (min-width: 320px) {
+    @media screen and (max-width: 320px) {
       main .imagenPrincipal .contenedor {
         margin: 50px; } }
 
@@ -98,7 +98,7 @@ main .imagenPrincipal {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.5em;
   margin: 30px; }
-  @media screen and (min-width: 320px) {
+  @media screen and (max-width: 320px) {
     .contenedor .seccion {
       font-size: 30px; } }
 
@@ -150,16 +150,16 @@ main .imagenPrincipal {
         color: #DA1212;
         border: 1px solid #DA1212;
         transform: translateY(-3px); }
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     .card {
       margin: 50px; } }
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 480px) {
     .card {
       margin: 100px;
       margin-top: 20px; } }
-  @media screen and (min-width: 320px) {
+  @media screen and (max-width: 320px) {
     .card {
-      margin: 1px; } }
+      margin: 30px; } }
   @media screen and (max-width: 1024px) {
     .card {
       margin: 120px; } }
@@ -249,19 +249,14 @@ body .containerNos {
         body .containerNos .carta .content h3 {
           font-size: 30px;
           color: #DA1212;
-          text-shadow: 3px 3px 3px white; } }
+          text-shadow: 3px 3px 3px white;
+          margin-left: -600px; } }
       @media screen and (max-width: 480px) {
         body .containerNos .carta .content h3 {
           font-size: 20px;
           color: #DA1212;
           text-shadow: 3px 3px 3px white;
           margin: -50px; } }
-      @media screen and (max-width: 320px) {
-        body .containerNos .carta .content h3 {
-          font-size: 20px;
-          color: #DA1212;
-          text-shadow: 3px 3px 3px white;
-          margin: -60px; } }
       @media screen and (max-width: 1024px) {
         body .containerNos .carta .content h3 {
           font-size: 20px;
@@ -269,18 +264,22 @@ body .containerNos {
       @media screen and (max-width: 1200px) {
         body .containerNos .carta .content h3 {
           text-align: center; } }
+      @media screen and (max-width: 320px) {
+        body .containerNos .carta .content h3 {
+          font-size: 20px;
+          color: #DA1212;
+          text-shadow: 3px 3px 3px white;
+          margin: 10px; } }
       @media screen and (max-width: 768px) {
         body .containerNos .carta .content p {
-          font-size: 30px; } }
+          font-size: 30px;
+          text-align: center;
+          margin: 50px; } }
       @media screen and (max-width: 480px) {
         body .containerNos .carta .content p {
           font-size: 20px;
           margin-top: 60px;
           margin-bottom: -10px; } }
-      @media screen and (max-width: 320px) {
-        body .containerNos .carta .content p {
-          margin-top: 60px;
-          font-size: 14.8px; } }
       @media screen and (max-width: 1024px) {
         body .containerNos .carta .content p {
           font-size: 16px;
@@ -291,6 +290,10 @@ body .containerNos {
           font-size: 18px;
           text-align: center;
           margin-left: 60px; } }
+      @media screen and (max-width: 320px) {
+        body .containerNos .carta .content p {
+          margin-top: 0px;
+          font-size: 10.8px; } }
 
 #comprar {
   position: relative;
@@ -446,8 +449,10 @@ body .containerNos {
       background: #F0F0F0; }
       @media screen and (max-width: 768px) {
         .contacto .containerContact .contactForm {
-          width: 400px;
-          margin-left: -55px; } }
+          width: 500px;
+          margin-right: 400px;
+          margin: 3px;
+          margin-left: -500px; } }
       @media screen and (max-width: 480px) {
         .contacto .containerContact .contactForm {
           width: 400px;
@@ -570,7 +575,7 @@ footer {
   @media screen and (max-width: 768px) {
     .bannerEvento {
       background-size: cover;
-      background-position: -180px; } }
+      background-position: -700px; } }
   @media screen and (max-width: 1024px) {
     .bannerEvento {
       background-size: cover;

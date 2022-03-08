@@ -77,8 +77,10 @@
             padding: 40px;
             background: $colorDos;
             @include media-up(md){
-                width: 400px;
-                margin-left: -55px;
+                width: 500px;
+                margin-right: 400px;
+                margin: 3px;
+                margin-left: -500px;
             }
             @include media-up(sm){
                 width: 400px;

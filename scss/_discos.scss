@@ -49,16 +49,16 @@
                         }
                     }
                 }
-                @include media-down(md){
+                @include media-up(md){
                     margin: 50px;
                 }
-                @include media-down(sm){
+                @include media-up(sm){
                     margin: 100px;
                     margin-top: 20px
 
                 }
-                @include media-down(xsm){
-                    margin: 1px;
+                @include media-up(xsm){
+                    margin: 30px;
                 }
                 @include media-up(lg){
                     margin: 120px;
