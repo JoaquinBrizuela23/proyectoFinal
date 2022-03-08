@@ -150,22 +150,22 @@ main .imagenPrincipal {
         color: #DA1212;
         border: 1px solid #DA1212;
         transform: translateY(-3px); }
+  @media screen and (max-width: 1200px) {
+    .card {
+      margin: 60px; } }
+  @media screen and (max-width: 1024px) {
+    .card {
+      margin: 120px; } }
   @media screen and (max-width: 768px) {
     .card {
       margin: 50px; } }
   @media screen and (max-width: 480px) {
     .card {
-      margin: 100px;
+      margin: 110px;
       margin-top: 20px; } }
   @media screen and (max-width: 320px) {
     .card {
-      margin: 30px; } }
-  @media screen and (max-width: 1024px) {
-    .card {
-      margin: 120px; } }
-  @media screen and (max-width: 1200px) {
-    .card {
-      margin: 60px; } }
+      margin: 40px; } }
 
 /* NOSOTROS */
 body .containerNos {
@@ -251,12 +251,6 @@ body .containerNos {
           color: #DA1212;
           text-shadow: 3px 3px 3px white;
           margin-left: -600px; } }
-      @media screen and (max-width: 480px) {
-        body .containerNos .carta .content h3 {
-          font-size: 20px;
-          color: #DA1212;
-          text-shadow: 3px 3px 3px white;
-          margin: -50px; } }
       @media screen and (max-width: 1024px) {
         body .containerNos .carta .content h3 {
           font-size: 20px;
@@ -264,22 +258,26 @@ body .containerNos {
       @media screen and (max-width: 1200px) {
         body .containerNos .carta .content h3 {
           text-align: center; } }
+      @media screen and (max-width: 480px) {
+        body .containerNos .carta .content h3 {
+          font-size: 20px;
+          color: #DA1212;
+          text-shadow: 3px 3px 3px white;
+          margin: -50px;
+          margin-right: 25px; } }
       @media screen and (max-width: 320px) {
         body .containerNos .carta .content h3 {
           font-size: 20px;
           color: #DA1212;
           text-shadow: 3px 3px 3px white;
-          margin: 10px; } }
+          margin: 10px;
+          margin-left: -150px;
+          margin-top: -50px; } }
       @media screen and (max-width: 768px) {
         body .containerNos .carta .content p {
           font-size: 30px;
           text-align: center;
           margin: 50px; } }
-      @media screen and (max-width: 480px) {
-        body .containerNos .carta .content p {
-          font-size: 20px;
-          margin-top: 60px;
-          margin-bottom: -10px; } }
       @media screen and (max-width: 1024px) {
         body .containerNos .carta .content p {
           font-size: 16px;
@@ -290,10 +288,19 @@ body .containerNos {
           font-size: 18px;
           text-align: center;
           margin-left: 60px; } }
+      @media screen and (max-width: 480px) {
+        body .containerNos .carta .content p {
+          font-size: 18px;
+          margin-top: 60px;
+          margin-bottom: -30px;
+          margin-left: -15px; } }
       @media screen and (max-width: 320px) {
         body .containerNos .carta .content p {
-          margin-top: 0px;
-          font-size: 10.8px; } }
+          margin-top: 20px;
+          font-size: 14px;
+          text-align: center;
+          justify-content: center;
+          margin-left: -30px; } }
 
 #comprar {
   position: relative;
@@ -447,12 +454,23 @@ body .containerNos {
       width: 80%;
       padding: 40px;
       background: #F0F0F0; }
+      @media screen and (max-width: 480px) {
+        .contacto .containerContact .contactForm {
+          width: 400px;
+          margin-left: -128px; } }
+      @media screen and (max-width: 1024px) {
+        .contacto .containerContact .contactForm {
+          width: 500px;
+          margin-left: -40px; } }
+      @media screen and (max-width: 1200px) {
+        .contacto .containerContact .contactForm {
+          width: 500px; } }
       @media screen and (max-width: 768px) {
         .contacto .containerContact .contactForm {
           width: 500px;
           margin-right: 400px;
           margin: 3px;
-          margin-left: -500px; } }
+          margin-left: -110px; } }
       @media screen and (max-width: 480px) {
         .contacto .containerContact .contactForm {
           width: 400px;
@@ -461,13 +479,6 @@ body .containerNos {
         .contacto .containerContact .contactForm {
           width: 290px;
           margin-left: -115px; } }
-      @media screen and (max-width: 1024px) {
-        .contacto .containerContact .contactForm {
-          width: 500px;
-          margin-left: -40px; } }
-      @media screen and (max-width: 1200px) {
-        .contacto .containerContact .contactForm {
-          width: 500px; } }
       .contacto .containerContact .contactForm h2 {
         font-size: 30px;
         color: #333;
@@ -564,25 +575,25 @@ footer {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/evento1.jpg);
   background-size: cover; }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 1200px) {
     .bannerEvento {
-      background-size: cover;
-      background-position: -450px; } }
-  @media screen and (max-width: 480px) {
-    .bannerEvento {
-      background-size: cover;
-      background-position: -350px; } }
-  @media screen and (max-width: 768px) {
-    .bannerEvento {
-      background-size: cover;
-      background-position: -700px; } }
+      background-position: -50px; } }
   @media screen and (max-width: 1024px) {
     .bannerEvento {
       background-size: cover;
       background-position: -100px; } }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 768px) {
     .bannerEvento {
-      background-position: -50px; } }
+      background-size: cover;
+      background-position: -250px; } }
+  @media screen and (max-width: 480px) {
+    .bannerEvento {
+      background-size: cover;
+      background-position: -400px; } }
+  @media screen and (max-width: 320px) {
+    .bannerEvento {
+      background-size: cover;
+      background-position: -500px; } }
   .bannerEvento .contenidoEvento {
     width: 100%;
     position: absolute;

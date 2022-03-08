@@ -3,24 +3,26 @@
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(/img/evento1.jpg);
     background-size: cover;
-    @include media-up(xsm){
-        background-size: cover;
-        background-position: -450px;
-    }
-    @include media-up(sm){
-        background-size: cover;
-        background-position: -350px;
-    }
-    @include media-up(md){
-        background-size: cover;
-        background-position: -700px;
+    
+    
+    @include media-up (xl){
+        background-position: -50px;
     }
     @include media-up (lg){
         background-size: cover;
         background-position: -100px;
     }
-    @include media-up (xl){
-        background-position: -50px;
+    @include media-up(md){
+        background-size: cover;
+        background-position: -250px;
+    }
+    @include media-up(sm){
+        background-size: cover;
+        background-position: -400px;
+    }
+    @include media-up(xsm){
+        background-size: cover;
+        background-position: -500px;
     }
     .contenidoEvento{
         width: 100%;
